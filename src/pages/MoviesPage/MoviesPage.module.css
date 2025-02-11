@@ -1,0 +1,39 @@
+.section {
+  padding: 20px 0;
+}
+.container {
+  max-width: 320px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.searchForm {
+  display: flex;
+  width: 300px;
+  margin: 0 auto 20px auto;
+  box-shadow:
+    0 1px 6px 0 rgba(17, 17, 22, 0.16),
+    0 1px 1px 0 rgba(17, 17, 22, 0.16),
+    0 2px 1px 0 rgba(17, 17, 22, 0.16);
+}
+.searchInput {
+  border: none;
+  outline: none;
+  padding: 5px;
+  order: 1;
+}
+.searchBtn {
+  border: none;
+  padding: 5px;
+  background-color: #fff;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .container {
+    max-width: 1440px;
+  }
+}
